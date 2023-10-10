@@ -1,0 +1,676 @@
+
+
+:root {
+  --primary: rgb(29, 221, 189);
+  --bgDark: rgb(12, 12, 12);
+  --white: rgb(250, 250, 250);
+  --secondary: rgb(0, 59, 50);
+  --bgLight: rgb(190, 181, 181);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+header nav .left a {
+  color: black;
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all .2s ease;
+}
+
+header nav .left a:hover {
+  color: var(--primary);
+}
+
+header nav {
+  padding: 2rem 0;
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1152px;
+  padding: 0;
+  margin: 0 auto;
+  /* margin-block-start: -15rem; */
+}
+
+
+.hero {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.hero_container .hero_image{
+  margin-block-start: 7rem;
+  height: 300px;
+  
+} 
+.hero_container .hero_image img{
+  margin-inline-start: -4rem;
+  margin-inline-end: 12rem;
+  height: 220px;
+}
+
+
+
+.hero .right {
+  color: var(--white);
+
+}
+
+.hero .right h6 {
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.wrapper_disc{
+  text-align: center;
+}
+.hero .right h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  /* line-height: 1.2; */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hero .right h1 span {
+  color: var(--primary);
+}
+
+.hero .right p {
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-centre {
+  align-items: center;
+  
+}
+/* .skill_svg{
+  margin-block-start: -7rem;
+    margin-block-end: -16rem;
+    width: 100%;
+    height: 28rem;
+} */
+.skills-sec{
+  align-items: center;
+  margin-block-start: -3rem;
+
+}
+
+.justify-between {
+  
+  justify-content: space-between;
+  margin-block: -2rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-right {
+  justify-content: right;
+}
+
+.btn {
+  padding: 0.6rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all .2s ease;
+}
+
+.btn-primary {
+  margin-inline-start: 25rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+  margin-top: -15rem;
+  border-radius: 12px;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.btn-secondary {
+  background: transparent;
+  color:red;
+  border-color: var(--primary);
+
+margin-block-start: -1rem;
+  border: none;
+  border-radius: 17px;
+}
+
+
+
+.btn-secondary:hover {
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+section {
+  padding: 5rem;
+ 
+}
+
+
+section.about #name{
+  margin-inline-start: -4.5rem;
+}
+
+section.about h1 {
+  margin-bottom: 3rem;
+
+  font-weight: 600;
+  
+  text-shadow: 1px 2px;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
+section.about .About_container {
+  margin-block-start: -8rem;
+}
+
+section.about h1 span {
+  color: var(--primary);
+}
+
+section.about h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+
+
+
+
+section.project {
+  background: rgb(17, 17, 17);
+
+ 
+}
+
+.project_head {
+ 
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 0.5rem;
+  color: var(--primary);
+
+  
+  text-transform: capitalize;
+  font-family: monospace;
+  margin-top: -1rem;
+  font-size: 37px;
+}
+
+.project_title{
+  text-transform: capitalize;
+  font-family: monospace;
+  color: var(--primary);
+  text-align: center;
+  line-height: 0.5rem;
+  font-size: 1.5rem;
+    margin-bottom: 3rem;
+
+}
+
+
+
+
+/* .card img {
+  width: 50px;
+  background: white;
+} */
+
+section.project .card-grid {
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  justify-content: center;
+}
+hr{
+  background: rgb(240, 241, 243);
+ 
+  height: 4px;
+
+}
+
+
+section.project .card-grid .card {
+  
+ background: url(https://img.freepik.com/free-vector/meteorology-abstract-concept-vector-illustration-met-station-meteorology-program-university-degree-weather-prediction-method-measuring-instruments-atmosphere-study-abstract-metaphor_335657-1980.jpg);
+  background-size: cover;
+  background-clip: border-box;
+ padding: 5rem 3rem;
+ background-position: center;
+  /* position: relative; */
+  text-align: center;
+  transition: all 1s ease;
+  border-radius: 12px;
+  width: fit-content;
+}
+section.project .card-grid #random_password {
+  
+  background: url(https://img.freepik.com/free-vector/access-control-system-abstract-concept_335657-3180.jpg);
+   background-size: cover;
+   background-clip: border-box;
+    padding: 5rem 3rem;
+   /* position: relative; */
+   text-align: center;
+   transition: all 1s ease;
+   border-radius: 12px;
+   background-position: center;
+   /* width: fit-content; */
+ }
+
+ section.project .card-grid #color_picker {
+  
+  background: url(https://img.freepik.com/free-vector/palette-concept-illustration_114360-2933.jpg);
+
+  
+   background-size: cover;
+   background-clip: border-box;
+    padding: 5rem 3rem;
+   /* position: relative; */
+   text-align: center;
+   transition: all 1s ease;
+   border-radius: 12px;
+   background-position: center;
+   /* width: fit-content; */
+ }
+
+ section.project .card-grid #color_picker h2 {
+  color: rgb(5, 5, 5);
+  text-align: left;
+  font-family: monospace;
+
+ }
+ section.project .card-grid #color_picker p{
+ color: rgb(8, 8, 8);
+ }
+
+
+
+
+
+section.project .card-grid .card  a{
+  text-decoration: none;
+}
+section.project .card-grid .card img {
+  
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var();
+}
+
+section.project .card-grid .card h2 {
+  width: 15em;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-top: -2.5rem;
+color: rgb(9, 9, 9);
+ 
+}
+section.project .card-grid #random_password h2 {
+  width: 15em;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-top: -2.5rem;
+color: rgb(7, 7, 7);
+ 
+}
+
+
+
+
+
+
+section.project .card-grid .card p {
+ margin-block-start: 2rem;
+  font-family: 'Lato', sans-serif;
+  color: var(--seconday);
+  line-height: 1.6;
+  text-align: justify;
+  color: rgb(20, 20, 20);
+}
+section.project .card-grid #random_password p {
+  margin-block-start: 2rem;
+   font-family: 'Lato', sans-serif;
+   color: var(--seconday);
+   line-height: 1.6;
+   text-align: justify;
+   color: rgb(11, 11, 11);
+ }
+
+
+
+
+
+
+
+
+
+section.project .card-grid .card:hover {
+ background: url(https://img.freepik.com/premium-vector/children-playing-rain-autumn_29937-3190.jpg);
+   backface-visibility: visible;
+  background-repeat: no-repeat;
+background-size: cover;
+
+background-position: center;
+box-shadow: inset 0 3px 10px 8px  pink;
+ 
+
+}
+
+section.project .card-grid .card:hover h2 {
+  color: rgb(12, 10, 10);
+  font-family: monospace;
+}
+
+section.project .card-grid .card:hover p {
+  color: white;
+  opacity: 0.5;
+}
+
+
+
+
+
+
+section.project .card-grid #random_password:hover {
+  background: url(https://img.freepik.com/premium-vector/facial-recognition-isolated-cartoon-vector-illustrations_107173-21468.jpg);
+  
+   background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ 
+ box-shadow: inset 0 3px 10px 8px  pink;
+ 
+ 
+ }
+
+ section.project .card-grid #random_password:hover p{
+  opacity: 0.5;
+  color: white;
+ }
+
+
+
+
+ section.project .card-grid #color_picker:hover {
+  background: url(
+    https://img.freepik.com/free-vector/colors-swatches-palette-paint-samples-fan-interior-design-colours-spectrum-scale-graphics-designer-guide-isolated-clipart_335657-193.jpg
+    
+    );
+    backface-visibility: visible;
+   background-repeat: no-repeat;
+ background-size: cover;
+background-position-y: 25%;
+box-shadow: inset 0 3px 10px 8px  pink;
+
+ 
+  background-position: center;
+ 
+ }
+
+
+
+
+ 
+ section.project .card-grid #color_picker:hover h2 {
+   color: rgb(4, 4, 5);
+   font-family: monospace;
+   text-align: justify;
+   
+ }
+
+ section.project .card-grid #color_picker:hover p{
+  color: white;
+opacity: 0.5;
+ }
+
+
+
+
+
+.wrapper {
+  text-shadow: 3px 2px rgb(239, 232, 232) ;
+  /*This part is important for centering*/
+   color: rgb(9, 9, 9);
+  place-items: center;
+}
+
+.typing-demo {
+
+  margin-inline: -4rem;
+  width: 21rem;
+  animation: typing 2s steps(30);
+  white-space: nowrap;
+  overflow: hidden;
+  
+  font-family: monospace;
+  font-size: 2em;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.About_pic{
+margin-inline-start: -4rem;
+margin-inline-end: 6rem;
+border-radius: 10%;
+height: 300px;
+
+}
+
+
+
+
+
+
+
+.typing-demo h1 span {
+  color: var(--primary);
+}
+
+section.about h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+
+
+section.about p {
+  font-family: 'Lato', sans-serif;
+  color: rgb(20 21 20);
+  line-height: 1.9rem;
+  margin-bottom: 2rem;
+  text-align:justify;
+}
+section.connect-head{
+ padding: 3rem;
+ /* margin-block-end: 2rem; */
+}
+
+
+section.connect-head .socials {
+  display: flex;
+  align-items: center;
+    justify-content: center;
+ 
+}
+
+section.connect-head .socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  margin-right: 0.8rem;
+  border-radius: 50%;
+  text-decoration: none;
+} 
+
+/*  */
+
+section.connect-head .socials {
+  display: flex;
+ 
+}
+
+/*  */
+
+section.connect-head .socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  margin-right: 0.8rem;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+
+
+
+.connect{
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+ 
+  text-shadow: 2px 1px;
+    
+
+}
+.connect .fa-user{
+
+margin-inline-start: 1rem;
+}
+
+
+
+
+ section .skills_pic{
+  
+
+
+  margin-inline-start: -8rem;
+  margin-inline-end: 4rem;
+  height: 220px;
+    
+  }
+ div.top_arrow{
+ cursor: pointer;
+  text-align: right;
+
+    margin-block-start: -8rem;
+  }
+  div.top_arrow i{
+  margin-inline-end: 1rem;
+    font-size: 3rem;
+  }
+
+  .skills_head{
+    color: rgb(10, 9, 9);
+    text-align: center;
+    margin-bottom: 8rem;
+    line-height: 0.5rem;
+    
+    text-transform: capitalize;
+    font-family: monospace;
+    margin-top: -1rem;
+    font-size: 37px;
+  }
+
+  
+
+
+
+
+  svg {
+    margin-block-start: -9rem;
+    margin-block-end: -19.5rem;
+    width: 100%;
+    height: 28rem;
+}
+  
+.skills_disc {
+  margin-block-start: -4rem;
+  line-height: 7rem;
+  text-align: center;
+
+}
+.skills_disc i{
+
+  font-size: 4rem;
+  margin-right: 4rem;
+}
+.git_contru{
+  background-color:#111315;
+  padding-block-start: 2rem;
+text-align: center;
+   
+}
+.git_contru h2{
+  font-family: monospace;
+    font-size: 35px;
+    margin-block-end: 3rem;
+    color: white;
+}
+.git_contru img{
+  margin-block-end: 2rem;
+  width: 47rem;
+  height: 17rem;
+  border-radius: 8px;
+  }
