@@ -41,7 +41,9 @@ body {
 }
 
 .container {
-  max-width: 1152px;
+  width: fit-content;
+  /* max-width: 1152px; */
+  margin-inline-start: -3rem;
   padding: 0;
   margin: 0 auto;
   /* margin-block-start: -15rem; */
@@ -59,7 +61,7 @@ body {
   
 } 
 .hero_container .hero_image img{
-  margin-inline-start: -4rem;
+  margin-inline-start: -30rem;
   margin-inline-end: 12rem;
   height: 220px;
 }
@@ -132,6 +134,7 @@ body {
 }
 
 .btn {
+  margin-inline-start: 2rem;
   padding: 0.6rem 2rem;
   font-size: 1rem;
   font-weight: 600;
@@ -219,7 +222,7 @@ section.about h3 {
 
 section.project {
   background: rgb(17, 17, 17);
-
+padding: 2.5rem;
  
 }
 
@@ -258,8 +261,8 @@ section.project {
 
 section.project .card-grid {
   cursor: pointer;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  grid-template-columns: repeat(3, 0fr);
   column-gap: 1rem;
   justify-content: center;
 }
@@ -282,7 +285,7 @@ section.project .card-grid .card {
   text-align: center;
   transition: all 1s ease;
   border-radius: 12px;
-  width: fit-content;
+  width: 20rem;
 }
 section.project .card-grid #random_password {
   
@@ -530,6 +533,7 @@ section.about h3 {
 
 
 section.about p {
+  width: 47rem;
   font-family: 'Lato', sans-serif;
   color: rgb(20 21 20);
   line-height: 1.9rem;
