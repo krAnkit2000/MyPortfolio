@@ -5,16 +5,6 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/281/281089.png">
 
@@ -25,35 +15,47 @@
 
   <body>
     <header>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#0099ff" fill-opacity="1" 
-        
-          d="M0,224L50,202.7C96,181,192,139,288,138.7C384,139,480,181,576,192C672,203,768,181,864,186.7C960,192,1056,224,1152,224C1248,224,1344,192,1392,176L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+
+
+      <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg"
+        class="transition duration-300 ease-in-out delay-150">
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stop-color="#F78DA7"></stop>
+            <stop offset="95%" stop-color="#8ED1FC"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,400 C 0,400 0,133 0,133 C 82.04809343868087,147.4788732394366 164.09618687736173,161.95774647887325 226,167 C 287.90381312263827,172.04225352112675 329.6633459292339,167.64788732394368 400,157 C 470.3366540707661,146.35211267605632 569.2504294057024,129.4507042253521 650,127 C 730.7495705942976,124.5492957746479 793.334936447956,136.5492957746479 848,139 C 902.665063552044,141.4507042253521 949.4098248024734,134.35211267605632 1009,126 C 1068.5901751975266,117.64788732394368 1141.0257643421505,108.04225352112677 1215,109 C 1288.9742356578495,109.95774647887323 1364.4871178289247,121.47887323943661 1440,133 C 1440,133 1440,400 1440,400 Z"
+          stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53"
+          class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)">
+
+        </path>
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+            <stop offset="5%" stop-color="#F78DA7"></stop>
+            <stop offset="95%" stop-color="#8ED1FC"></stop>
+          </linearGradient>
+        </defs>
+        <path
+          d="M 0,400 C 0,400 0,266 0,266 C 62.57025077293025,267.8282377189969 125.1405015458605,269.65647543799383 203,264 C 280.8594984541395,258.34352456200617 374.00824458948813,245.20233596702167 432,251 C 489.99175541051187,256.79766403297833 512.8265200961869,281.53418069391967 586,288 C 659.1734799038131,294.46581930608033 782.6856750257643,282.6609412572999 857,267 C 931.3143249742357,251.33905874270013 956.4307798007555,231.8220542768808 1005,239 C 1053.5692201992445,246.1779457231192 1125.5912057712128,280.05084163517694 1202,289 C 1278.4087942287872,297.94915836482306 1359.2043971143935,281.9745791824115 1440,266 C 1440,266 1440,400 1440,400 Z"
+          stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1"
+          class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)">
+
         </path>
       </svg>
+
+
       <div class="container">
         <nav class="flex items-centre justify-between">
-          <!-- <div class="left flex justfiy-right">
 
-            <div>
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Projects</a>
-              <a href="#">Skills</a>
-
-
-            </div>
-          </div> -->
           <div class="right">
-            <button class="btn btn-primary"  id="connect" onclick="connect_head()">Connect</button>
+            <button class="btn btn-primary" id="connect" onclick="connect_head()">Connect</button>
           </div>
           <a href="https://drive.google.com/file/d/1MofWtdefoOQRS6EoaV02RmlfZJb3811m/view?usp=drive_link"
             target="_self">
             <button class="btn btn-secondary">DOWNLOAD CV
-
-              <span class="material-symbols-outlined">
-                download
-              </span>
+              <i class="fa-solid fa-download fa-beat-fade fa-xl"></i>
             </button> </a>
         </nav>
       </div>
@@ -89,9 +91,7 @@
             class="myCV">
             <button class="btn btn-secondary">DOWNLOAD CV
 
-              <span class="material-symbols-outlined">
-                download
-              </span>
+              <i class="fa-solid fa-download fa-beat-fade fa-xl"></i>
             </button> </a>
 
         </div>
@@ -160,8 +160,8 @@
             I'm a <strong> Web Developer </strong> fresher with a passion for creating beautiful and functional
             websites. I recently
             completed
-            a bootcamp where I learned HTML, CSS, and JavaScript, and I can't wait to apply my new skills to real-world
-            projects. I'm a quick learner and a hard worker, and I'm excited to join a team where I can continue to grow
+            a bootcamp where I learned HTML, CSS, and JavaScript. I'm a quick learner and a hard worker, and I'm excited
+            to join a team where I can continue to grow
             and develop as a front-end developer.
           </p>
 
@@ -175,37 +175,42 @@
     <section class="project">
       <div class="container">
         <h1 class="project_head">projects</h1>
-        <p class="project_title" style="font-size: 13px;">click on project Card goto live projrct</p>
+        <p class="project_title">Click on the project card.
+          View the project live.</p>
 
         <div class="card-grid">
-          
-          <div class="card">
-            
-            <a href="https://krankit2000.github.io/weather-app/" >
-            <h2>Weather App</h2>
 
-            <hr>
-          
-            <p>he weather app will be show the temperature of a location , current weather, weather conditions, relative humidity And wind speed .</p>
-          </a>
+          <div class="card">
+
+            <a href="https://krankit2000.github.io/weather-app/">
+              <h2>Weather App</h2>
+
+              <hr>
+
+              <p>he weather app will be show the temperature of a location , current weather, weather conditions,
+                relative humidity And wind speed .</p>
+            </a>
           </div>
           <div class="card" id="random_password">
-  
-            <a href="https://password-generator-io.netlify.app/">
-           
-            <h2>Random password generater</h2>
-            <hr>
 
-            <p> Random password  Generate a password using parameters that a user sets, including-upper Case, lower-case,  numeric and  mixed-case letter.</p>
-          </a>
+            <a href="https://password-generator-io.netlify.app/">
+
+              <h2>Random password generater</h2>
+              <hr>
+
+              <p> Random password Generate a password using parameters that a user sets, including-upper Case,
+                lower-case, numeric and mixed-case letter.</p>
+            </a>
 
           </div>
           <div class="card" id="color_picker">
-         <a href="https://color-identify.netlify.app/">
-            <h2>color picker</h2>
-            <hr>
-            <p>About
-              A color picker build web app using react this web application that allows users to type color nd identify colors from an image or a set of predefined color palettes. It helps users accurately choose specific colors by providing a color and , color codes </p>
+            <a href="https://color-identify.netlify.app/">
+              <h2>color picker</h2>
+              <hr>
+              <p>About
+                A color picker build web app using react this web application that allows users to type color nd
+                identify colors from an image or a set of predefined color palettes. It helps users accurately choose
+                specific colors by providing a color and , color codes </p>
             </a>
           </div>
         </div>
@@ -217,7 +222,7 @@
       <img src="./img/git.png" alt="">
     </div>
 
-  </section>
+    </section>
 
     <section class="connect-head" id="connect-head">
 
@@ -241,15 +246,15 @@
           <i class="fa-solid fa-envelope fa-fade fa-2xl" style="color: #e92907;"></i></a>
         <a href="#"><i class="fa-brands fa-facebook-f fa-fade fa-2xl" style="color: #437ddf;"></i></a>
 
-        
+
     </section>
-    
+
 
     <div class="top_arrow">
       <i class="fa-solid fa-circle-arrow-up fa-beat-fade" style="color: #ef2e2e;" onclick="scrollToTop()"></i>
-      <!-- <h3>Go to top</h3> -->
+      <h3>Top</h3>
     </div>
-   
+
 
   </body>
 
