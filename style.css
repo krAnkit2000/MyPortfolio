@@ -119,7 +119,7 @@ body {
 
 .justify-between {
   
-  justify-content: space-between;
+  justify-content: end;
   margin-block: -2rem;
 }
 
