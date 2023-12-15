@@ -225,8 +225,9 @@ section.project {
 }
 
 .project_title {
+  with:auto;
   text-transform: capitalize;
-  font-family: monospace;
+  font-family: cursive;
   color: var(--primary);
   text-align: center;
   line-height: 0.5rem;
