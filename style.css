@@ -5,6 +5,10 @@
 
 }
 
+header{
+  margin-block-start: -1rem;
+    width: fit-content;
+}
 
 * {
   padding: 0;
@@ -18,6 +22,14 @@ body {
   scroll-behavior: smooth;
 }
 
+/* ::-webkit-scrollbar {
+display:none;
+} */
+::-webkit-scrollbar{
+ display: none;
+
+
+}
 
 header nav .left a {
   color: black;
@@ -41,7 +53,7 @@ header nav {
 
 .container {
   width: fit-content;
-
+  margin-block-start: 8px;
   margin-inline-start: -3rem;
   padding: 0;
   margin: 0 auto;
@@ -60,7 +72,7 @@ header nav {
 
 .hero_container .hero_image img {
   margin-block-start: 1rem;
-  margin-inline: -26rem 16rem;
+  margin-inline: -26rem 17rem;
   height: 220px;
 }
 
@@ -146,10 +158,10 @@ header nav {
   color: var(--secondary);
 }
 
-section {
+/* section {
   padding: 5rem;
 
-}
+} */
 
 
 section.about #name {
@@ -169,7 +181,8 @@ section.about h1 {
 }
 
 section.about .About_container {
-  margin-block-start: -8rem;
+  margin-block-start: -1rem;
+  text-align: justify;
 }
 
 section.about h1 span {
@@ -184,13 +197,19 @@ section.about h3 {
 
 
 
+section.project {
+  background: rgb(17, 17, 17);
+  padding: 3px;
+  /* width: fit-content; */
 
+}
 
+/* 
 section.project {
   background: rgb(17, 17, 17);
   padding: 2.5rem;
 
-}
+} */
 
 .project_head {
   text-align: center;
@@ -211,9 +230,13 @@ section.project {
   line-height: 0.5rem;
   font-size: 1.5rem;
   margin-bottom: 3rem;
+  width: fit-content;
 
 }
+/* 
+.project_title{
 
+} */
 
 
 
@@ -545,9 +568,15 @@ section.connect-head .socials a {
 
 
 .skills {
-  margin-block-start: -2rem;
+  margin-block-start: 3rem;
+  margin-top: 2rem;
+ 
 }
-
+.skills {
+  width: -webkit-fill-available;
+display: flex;
+    flex-direction: row;
+}
 
 section .skills_pic {
 
@@ -569,7 +598,7 @@ div.top_arrow {
   cursor: pointer;
   text-align: right;
 
-  margin-block-start: -8rem;
+  margin-block-start: -5rem;
 }
 
 div.top_arrow i {
@@ -595,19 +624,21 @@ svg {
   margin-block-start: -12rem;
   margin-block-end: -17.5rem;
   width: 100%;
-  height: 28rem;
+  height: 26rem;
 }
-
 
 
 
 .skills_disc {
   margin-block-start: -4rem;
   line-height: 7rem;
-
+ 
 
 }
-
+.skills_disc i:hover{
+  font-size: 5rem;
+/* box-shadow: 2px 1px 1px 2px red; */
+}
 .skills_disc i {
 
   font-size: 4rem;
@@ -630,7 +661,7 @@ svg {
 
 .git_contru img {
   margin-block-end: 2rem;
-  width: 47rem;
+  width: -webkit-fill-available;
   height: 17rem;
   border-radius: 8px;
 }
@@ -693,3 +724,78 @@ svg {
     d: path("M 0,400 C 0,400 0,266 0,266 C 62.57025077293025,267.8282377189969 125.1405015458605,269.65647543799383 203,264 C 280.8594984541395,258.34352456200617 374.00824458948813,245.20233596702167 432,251 C 489.99175541051187,256.79766403297833 512.8265200961869,281.53418069391967 586,288 C 659.1734799038131,294.46581930608033 782.6856750257643,282.6609412572999 857,267 C 931.3143249742357,251.33905874270013 956.4307798007555,231.8220542768808 1005,239 C 1053.5692201992445,246.1779457231192 1125.5912057712128,280.05084163517694 1202,289 C 1278.4087942287872,297.94915836482306 1359.2043971143935,281.9745791824115 1440,266 C 1440,266 1440,400 1440,400 Z");
   }
 }
+
+
+@media  only screen and (max-width: 600px){
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: -26rem;
+    margin-top: -2rem;
+}
+
+svg {
+
+  margin-block-end: -16rem;
+}
+.typing-demo{
+  margin-top: 2rem;
+}
+
+ .btn-secondary {
+ width: 11rem;
+ 
+}
+.hero_container .hero_image{
+  display: none;
+}
+section .skills_pic {
+  display: none;
+}
+
+.skills_disc{
+  /* text-align: justify; */
+  margin-left: 26px;
+}
+.About_pic{
+
+    display: none;
+}
+section.about h1{
+  
+    text-align: justify;
+    font-size: 4rem;
+    margin-inline: 1rem;
+
+}
+section.about p {
+  width: 22rem;
+}
+.project_head {
+  text-align: center;
+}
+.project_title {
+text-align: justify;
+    width: 23rem;
+    line-height: 2rem;
+}
+section.project .card-grid{
+  display: block;
+  margin-inline: 2rem;
+}
+section.project .card-grid .card {
+  margin-bottom: 2rem;
+}
+
+.git_contru {
+  background-color: #bcccdd;
+  width: -webkit-fill-available;
+}
+.git_contru img {
+  width: -webkit-fill-available;
+ 
+      height: 9rem;
+}
+}
+ 
+
