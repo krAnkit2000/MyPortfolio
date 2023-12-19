@@ -664,9 +664,10 @@ svg {
 }
 
 .git_contru img {
+  padding:1rem;
   margin-block-end: 2rem;
   width: -webkit-fill-available;
-/*   height: 17rem; */
+  height: 11rem;
   
   border-radius: 8px;
 }
@@ -799,7 +800,7 @@ section.project .card-grid .card {
 .git_contru img {
   width: -webkit-fill-available;
  
-/*       height: 9rem; */
+      height: 7rem;
 }
 }
  
