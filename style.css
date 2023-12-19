@@ -573,12 +573,13 @@ section.connect-head .socials a {
 .skills {
   margin-block-start: 3rem;
   margin-top: 6rem;
- 
-}
-.skills {
-  width: -webkit-fill-available;
+ width: -webkit-fill-available;
 display: flex;
     flex-direction: row;
+}
+
+.skills_disc a{
+ text-decoration: none;
 }
 
 section .skills_pic {
