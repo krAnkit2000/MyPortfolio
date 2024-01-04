@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
   --primary: rgb(29, 221, 189);
 
@@ -5,9 +9,10 @@
 
 }
 
-header{
+
+header {
   margin-block-start: -1rem;
-    width: fit-content;
+  width: fit-content;
 }
 
 * {
@@ -18,15 +23,13 @@ header{
 }
 
 body {
+
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar {
-display:none;
-} */
-::-webkit-scrollbar{
- display: none;
+::-webkit-scrollbar {
+  display: none;
 
 
 }
@@ -47,10 +50,6 @@ header nav {
   padding: 2rem 0;
 }
 
-
-
-
-
 .container {
   width: fit-content;
   margin-block-start: 8px;
@@ -58,11 +57,6 @@ header nav {
   padding: 0;
   margin: 0 auto;
 
-}
-
-
-.resume{
-    margin-top: 2rem;
 }
 
 .hero_container .hero_image {
@@ -73,8 +67,9 @@ header nav {
 
 
 .hero_container .hero_image img {
+  mix-blend-mode: darken;
   margin-block-start: 1rem;
-  margin-inline: -26rem 17rem;
+  margin-inline: -25rem 17rem;
   height: 220px;
 }
 
@@ -160,11 +155,6 @@ header nav {
   color: var(--secondary);
 }
 
-/* section {
-  padding: 5rem;
-
-} */
-
 
 section.about #name {
   margin-inline-start: -4.5rem;
@@ -202,16 +192,11 @@ section.about h3 {
 section.project {
   background: rgb(17, 17, 17);
   padding: 3px;
-  /* width: fit-content; */
+ 
 
 }
 
-/* 
-section.project {
-  background: rgb(17, 17, 17);
-  padding: 2.5rem;
 
-} */
 
 .project_head {
   text-align: center;
@@ -220,30 +205,21 @@ section.project {
   color: var(--primary);
   text-transform: capitalize;
   font-family: monospace;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 2.5rem;
 }
 
 .project_title {
-  with:auto;
   text-transform: capitalize;
-  font-family: cursive;
+  font-family: monospace;
   color: var(--primary);
   text-align: center;
   line-height: 0.5rem;
   font-size: 1.5rem;
   margin-bottom: 3rem;
-/*   width: fit-content; */
+ 
 
 }
-/* 
-.project_title{
-
-} */
-
-
-
-
 
 section.project .card-grid {
   cursor: pointer;
@@ -254,10 +230,8 @@ section.project .card-grid {
 }
 
 hr {
-  background: rgb(240, 241, 243);
-
+  background: rgb(243, 241, 240);
   height: 4px;
-
 }
 
 
@@ -268,10 +242,8 @@ section.project .card-grid .card {
   background: url(https://img.freepik.com/free-vector/meteorology-abstract-concept-vector-illustration-met-station-meteorology-program-university-degree-weather-prediction-method-measuring-instruments-atmosphere-study-abstract-metaphor_335657-1980.jpg);
   background-size: cover;
   background-clip: border-box;
-
   padding: 3rem 2rem;
   background-position: center;
-
   text-align: center;
   transition: all 1s ease;
   border-radius: 12px;
@@ -283,7 +255,6 @@ section.project .card-grid #random_password {
   background: url(https://img.freepik.com/free-vector/access-control-system-abstract-concept_335657-3180.jpg);
   background-size: cover;
   background-clip: border-box;
-
   text-align: center;
   transition: all 1s ease;
   border-radius: 12px;
@@ -294,18 +265,14 @@ section.project .card-grid #random_password {
 section.project .card-grid #color_picker {
 
   background: url(https://img.freepik.com/free-vector/palette-concept-illustration_114360-2933.jpg);
-
-
   background-size: cover;
   background-clip: border-box;
-
   text-align: center;
   transition: all 1s ease;
   border-radius: 12px;
   background-position: center;
 
 }
-
 
 section.project .card-grid #color_picker p {
   color: rgb(8, 8, 8);
@@ -319,7 +286,6 @@ section.project .card-grid .card a {
 }
 
 section.project .card-grid .card img {
-
   top: -1.5rem;
   left: 50%;
   transform: translateX(-50%);
@@ -362,11 +328,8 @@ section.project .card-grid .card:hover {
   backface-visibility: visible;
   background-repeat: no-repeat;
   background-size: cover;
-
   background-position: center;
   box-shadow: inset 0 3px 10px 8px pink;
-
-
 }
 
 section.project .card-grid .card:hover h2 {
@@ -379,24 +342,18 @@ section.project .card-grid .card:hover p {
   opacity: 0.5;
 }
 
-
 section.project .card-grid #random_password:hover {
   background: url(https://img.freepik.com/premium-vector/facial-recognition-isolated-cartoon-vector-illustrations_107173-21468.jpg);
-
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   box-shadow: inset 0 3px 10px 8px pink;
-
-
 }
 
 section.project .card-grid #random_password:hover p {
   opacity: 0.5;
   color: white;
 }
-
 
 section.project .card-grid #color_picker:hover {
   background: url(https://img.freepik.com/free-vector/colors-swatches-palette-paint-samples-fan-interior-design-colours-spectrum-scale-graphics-designer-guide-isolated-clipart_335657-193.jpg
@@ -406,20 +363,12 @@ section.project .card-grid #color_picker:hover {
   background-size: cover;
   background-position-y: 25%;
   box-shadow: inset 0 3px 10px 8px pink;
-
-
   background-position: center;
-
 }
-
-
-
-
 
 section.project .card-grid #color_picker:hover h2 {
   color: rgb(4, 4, 5);
   font-family: monospace;
-
 
 }
 
@@ -427,8 +376,6 @@ section.project .card-grid #color_picker:hover p {
   color: white;
   opacity: 0.5;
 }
-
-
 
 
 
@@ -453,6 +400,11 @@ section.project .card-grid #color_picker:hover p {
   text-align: center;
 }
 
+.fa-arrow-circle-up:before,
+.fa-circle-arrow-up:before {
+
+  margin-inline: -0.5rem;
+}
 
 @keyframes typing {
   from {
@@ -467,18 +419,13 @@ section.project .card-grid #color_picker:hover p {
 }
 
 .About_pic {
-  margin-inline-start: -8rem;
-  margin-inline-end: 6rem;
+  mix-blend-mode: darken;
+  margin-inline-start: -6rem;
+  margin-inline-end: 4rem;
   border-radius: 10%;
   height: 300px;
 
 }
-
-
-
-
-
-
 
 .typing-demo h1 span {
   color: var(--primary);
@@ -504,110 +451,46 @@ section.about p {
 
 
 
-
-.connect {
-  text-align: center;
-  margin-bottom: 3.5rem;
-  text-transform: capitalize;
-
-  font-size: 1.6rem;
-  font-weight: 600;
-
-  text-shadow: 2px 1px;
-
-
-}
-
-section.connect-head {
-  padding: 3rem;
-
-}
-
-
-section.connect-head .socials {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-section.connect-head .socials a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  margin-right: 0.8rem;
-  border-radius: 50%;
-  text-decoration: none;
-}
-
-
-
-section.connect-head .socials {
-  display: flex;
-
-}
-
-
-
-section.connect-head .socials a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  margin-right: 0.8rem;
-  border-radius: 50%;
-  text-decoration: none;
-}
-
-
-
-
-
-.connect .fa-user {
-
-  margin-inline-start: 1rem;
-}
-
-
 .skills {
   margin-block-start: 3rem;
-  margin-top: 6rem;
- width: -webkit-fill-available;
-display: flex;
-    flex-direction: row;
+  margin-top: 2rem;
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: row;
+
 }
 
-.skills_disc a{
- text-decoration: none;
+.skills_disc a {
+  text-decoration: none;
 }
 
 section .skills_pic {
+  mix-blend-mode: darken;
 
 
-
-  margin-inline-start: -8rem;
-  margin-inline-end: 4rem;
+  margin-inline-start: -5rem;
+  margin-inline-end: 0rem;
   height: 220px;
 
 }
-div.top_arrow h3{
-text-align: end;
-margin-inline-end: 1.5rem;
-margin-block-start: -2rem;
-color: red;
+
+div.top_arrow h3 {
+  text-align: end;
+  margin-inline-end: 1.5rem;
+  margin-block-start: -2rem;
+  color: red;
 }
 
 div.top_arrow {
   cursor: pointer;
   text-align: right;
 
-  margin-block-start: -5rem;
+  margin-block-start: -10rem;
 }
 
 div.top_arrow i {
   margin-inline-end: 1rem;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 
@@ -636,13 +519,15 @@ svg {
 .skills_disc {
   margin-block-start: -4rem;
   line-height: 7rem;
- 
+
 
 }
-.skills_disc i:hover{
+
+.skills_disc i:hover {
   font-size: 5rem;
-/* box-shadow: 2px 1px 1px 2px red; */
+
 }
+
 .skills_disc i {
 
   font-size: 4rem;
@@ -664,10 +549,9 @@ svg {
 }
 
 .git_contru img {
-  padding:1rem;
+  padding: 2rem;
   margin-block-end: 2rem;
   width: -webkit-fill-available;
-  height: 11rem;
   
   border-radius: 8px;
 }
@@ -732,76 +616,278 @@ svg {
 }
 
 
-@media  only screen and (max-width: 600px){
-nav {
+@media only screen and (max-width: 600px) {
+  nav {
     display: flex;
     flex-direction: row;
     margin-inline-start: -26rem;
     margin-top: -2rem;
-}
+  }
 
-svg {
+  svg {
 
-  margin-block-end: -16rem;
-}
-.typing-demo{
-  margin-top: 2rem;
-}
+    margin-block-end: -16rem;
+  }
 
- .btn-secondary {
- width: 11rem;
- 
-}
-.hero_container .hero_image{
-  display: none;
-}
-section .skills_pic {
-  display: none;
-}
+  .typing-demo {
+    margin-top: 2rem;
+  }
 
-.skills_disc{
-  /* text-align: justify; */
-  margin-left: 26px;
-}
-.About_pic{
+  .btn-secondary {
+    width: 11rem;
+
+  }
+
+  .hero_container .hero_image {
+    display: none;
+  }
+
+  section .skills_pic {
+    display: none;
+  }
+
+  .skills_disc {
+
+    margin-left: 26px;
+  }
+
+  .About_pic {
 
     display: none;
-}
-section.about h1{
-  
+  }
+
+  section.about h1 {
+
     text-align: justify;
     font-size: 4rem;
     margin-inline: 1rem;
 
+  }
+
+  section.about p {
+    width: 21rem;
+  }
+
+  .project_head {
+    text-align: center;
+  }
+
+  .project_title {
+    font-size: 11px;
+    text-align: center;
+    width: 22rem;
+   
+  }
+
+  section.project .card-grid {
+    display: block;
+    margin-inline: 1rem;
+  }
+
+  section.project .card-grid .card {
+    margin-bottom: 2rem;
+  }
+
+  .git_contru {
+    background-color: #bcccdd;
+    width: -webkit-fill-available;
+  }
+
+  .git_contru img {
+    margin-block-end: 0;
+    width: -webkit-fill-available;
+    margin-top: -2rem;
+    height: auto;
+  }
+
+  .justify-between {
+    justify-content: end;
+    margin-block: -2rem;
+  }
+
+  div.top_arrow {
+    cursor: pointer;
+    text-align: right;
+    margin-block-start: -28rem;
+  }
+
+  div.top_arrow i {
+    color: rgb(0, 170, 255) !important;
+  }
 }
-section.about p {
-  width: 22rem;
+
+
+#contact {
+  background-color: #6a9ac4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.project_head {
+
+.contact-box {
+  width: clamp(100px, 90%, 1000px);
+  margin: 80px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-links,
+.contact-form-wrapper {
+  width: 50%;
+  padding: 6% 5% 6% 5%;
+}
+
+
+.contact-links {
+  background-color: #1f2e43;
+  background:
+    radial-gradient(circle at 55% 92%, #426691 0 12%, transparent 12.2%),
+    radial-gradient(circle at 94% 72%, #426691 0 10%, transparent 10.2%),
+    radial-gradient(circle at 20% max(78%, 350px), #263a53 0 7%, transparent 7.2%),
+    radial-gradient(circle at 0% 0%, #263a53 0 40%, transparent 40.2%),
+    #1f2e43;
+  border-radius: 10px 0 0 10px;
+}
+
+.contact-form-wrapper {
+  background-color: #ffffff8f;
+  border-radius: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .contact-links,
+  .contact-form-wrapper {
+    width: 100%;
+  }
+
+  .contact-links {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .contact-form-wrapper {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
+}
+
+.contact-links h2 {
+  font-family: cursive;
+  color: #ed7171;
+  font-size: clamp(30px, 6vw, 50px);
+  letter-spacing: 2px;
   text-align: center;
+  transform: scale(.95, 1);
 }
-.project_title {
-text-align: justify;
-    width: 23rem;
-    line-height: 2rem;
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
 }
-section.project .card-grid{
+
+.link {
+  font-size: 1.5rem;
+  margin: 13px;
+  cursor: pointer;
+}
+
+
+.form-item {
+  position: relative;
+}
+
+label,
+input,
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  color: #999;
+  font-size: clamp(14px, 1.5vw, 18px);
+  pointer-events: none;
+  user-select: none;
+}
+
+
+
+input,
+textarea {
+  resize: none;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: clamp(15px, 1.5vw, 18px);
+}
+
+input:focus+label,
+input:valid+label,
+textarea:focus+label,
+textarea:valid+label {
+  font-size: clamp(13px, 1.3vw, 16px);
+  color: #777;
+  top: -20px;
+  transition: all .225s ease;
+}
+
+.submit-btn {
+  background: linear-gradient(#e66465, #9198e5);
+
+  filter: drop-shadow(2px 2px 3px #0003);
+  color: #0a0909;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
   display: block;
-  margin-inline: 2rem;
-}
-section.project .card-grid .card {
-  margin-bottom: 2rem;
+  padding: 10px 34px;
+  margin: 5px auto;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
 }
 
-.git_contru {
-  background-color: #bcccdd;
-  width: -webkit-fill-available;
+.submit-btn:hover {
+  transform: scale(1.1, 1.1);
 }
-.git_contru img {
-  width: -webkit-fill-available;
- 
-      height: 7rem;
-}
-}
- 
 
+.submit-btn:active {
+  transform: scale(1.1, 1.1);
+  filter: sepia(0.5);
+}
+
+@media only screen and (max-width: 800px) {
+  h2 {
+    font-size: clamp(40px, 10vw, 60px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: clamp(30px, 12vw, 60px);
+  }
+
+  .links {
+    margin-bottom: 1.5rem;
+    padding-top: 17px;
+  }
+
+  img {
+    width: 38px;
+    height: 38px;
+  }
+}
