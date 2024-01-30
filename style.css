@@ -109,7 +109,7 @@ header nav {
 }
 
 .btn {
-  margin-inline-start: 2rem;
+  margin-inline-start: 1rem;
   padding: 0.6rem 2rem;
   font-size: 1rem;
   font-weight: 600;
@@ -205,7 +205,7 @@ section.project {
   color: var(--primary);
   text-transform: capitalize;
   font-family: monospace;
-  margin-top: 1rem;
+  margin-top: 3rem;
   font-size: 2.5rem;
 }
 
@@ -420,10 +420,10 @@ section.project .card-grid #color_picker:hover p {
 
 .About_pic {
   mix-blend-mode: darken;
-  margin-inline-start: -6rem;
-  margin-inline-end: 4rem;
-  border-radius: 10%;
-  height: 300px;
+    margin-inline-start: -4rem;
+    margin-inline-end: 9rem;
+    border-radius: 10%;
+    height: 268px;
 
 }
 
@@ -462,14 +462,14 @@ section.about p {
 
 .skills_disc a {
   text-decoration: none;
+  margin-right: -2rem;
 }
 
 section .skills_pic {
+  padding: 1rem;
   mix-blend-mode: darken;
-
-
-  margin-inline-start: -5rem;
-  margin-inline-end: 0rem;
+  margin-inline-start: -17rem;
+  margin-inline-end: 4rem;
   height: 220px;
 
 }
@@ -490,7 +490,7 @@ div.top_arrow {
 
 div.top_arrow i {
   margin-inline-end: 1rem;
-  font-size: 3.5rem;
+  font-size: 4rem;
 }
 
 
@@ -523,10 +523,10 @@ svg {
 
 }
 
-.skills_disc i:hover {
+/* .skills_disc i:hover {
   font-size: 5rem;
 
-}
+} */
 
 .skills_disc i {
 
@@ -549,11 +549,15 @@ svg {
 }
 
 .git_contru img {
-  padding: 2rem;
-  margin-block-end: 2rem;
+ 
   width: -webkit-fill-available;
   
-  border-radius: 8px;
+  
+  height: 8rem;
+    padding-bottom: 2rem;
+   
+    margin-left: 2rem;
+    margin-right: 3rem;
 }
 
 /*  header wave  */
