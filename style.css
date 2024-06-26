@@ -652,7 +652,9 @@ svg {
   }
 
   .skills_disc {
-
+display: flex;
+    flex-wrap: wrap;
+    width: 100%;
     margin-left: 26px;
   }
 
