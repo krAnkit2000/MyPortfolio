@@ -277,6 +277,34 @@ section.project .card-grid #color_picker {
 
 }
 
+
+section.project .card-grid #Youtube_clone {
+
+  background: url(https://img.freepik.com/free-vector/youtube-player-icon-with-flat-design_23-2147837753.jpg?ga=GA1.2.1618737156.1719406084&semt=sph);
+  background-size: cover;
+  background-clip: border-box;
+  text-align: center;
+  transition: all 1s ease;
+  border-radius: 12px;
+  background-position: center;
+
+}
+
+
+section.project .card-grid #Youtube_clone:hover {
+  background: url(https://img.freepik.com/free-vector/modern-flat-style-clean-white-video-player-template_1017-25482.jpg?ga=GA1.2.1618737156.1719406084&semt=sph
+);
+  backface-visibility: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 25%;
+  box-shadow: inset 0 3px 10px 8px pink;
+  background-position: center;
+}
+
+
+
+
 section.project .card-grid #color_picker p {
   color: rgb(8, 8, 8);
 }
